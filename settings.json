@@ -1,0 +1,164 @@
+{
+  // ========== Formatação ==========
+
+  // Formatar arquivos automaticamente ao salvar
+  "editor.formatOnSave": true,
+
+  // Definindo o Prettier como formatador padrão para diferentes linguagens
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // ========== Aparência ==========
+
+  // Esconder breadcrumbs
+  "breadcrumbs.enabled": false,
+
+  // Renderizar espaços em branco no editor
+  "editor.renderWhitespace": "none",
+
+  // Tema de ícones de produto
+  "workbench.productIconTheme": "fluent-icons",
+
+  // Tema de ícones geral
+  "workbench.iconTheme": "symbols",
+
+  // Detectar automaticamente o esquema de cores do sistema
+  "window.autoDetectColorScheme": true,
+
+  // Definir o tema de cores do editor
+  "workbench.colorTheme": "Min Dark",
+
+  // Esconder barra de status
+  "workbench.statusBar.visible": false,
+
+  // Mover a barra de atividades para escondê-la
+  "workbench.activityBar.location": "hidden",
+
+  // Esconder controle de layout
+  "workbench.layoutControl.enabled": false,
+
+  // Esconder tabs do editor
+  "workbench.editor.showTabs": "none",
+
+  // Esconder o centro de comando
+  "window.commandCenter": false,
+
+  // Personalizar o título da janela
+  "window.title": " ",
+
+  // ========== Editor ==========
+
+  // Fonte e tamanho do editor
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.8,
+
+  // Largura de tabulação e quebras de linha
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+
+  // Desativar margens e destaques de pares de colchetes
+  "editor.glyphMargin": false,
+  "editor.bracketPairColorization.enabled": false,
+  "editor.guides.highlightActiveBracketPair": false,
+  "editor.guides.bracketPairsHorizontal": false,
+
+  // Desativar as guias de indentação
+  "editor.guides.indentation": false,
+
+  // Desativar destaques e animações de cursores
+  "editor.renderLineHighlight": "none",
+  "editor.cursorBlinking": "solid",
+  "editor.cursorSmoothCaretAnimation": "on",
+
+  // Controles de dobra de código
+  "editor.folding": false,
+  "editor.showFoldingControls": "never",
+
+  // Desativar sublinhado de ocorrências
+  "editor.occurrencesHighlight": "off",
+
+  // Desativar realce de correspondências de colchetes
+  "editor.matchBrackets": "never",
+
+  // Ocultar barras de rolagem
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+
+  // Ocultar cursor no Overview Ruler
+  "editor.hideCursorInOverviewRuler": true,
+
+  // Limitar o scroll apenas até a última linha de código
+
+  // Ocultar a barra de rolagem
+  "editor.scrollBeyondLastLine": false,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.editorActionsLocation": "hidden",
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.showSlider": "always",
+  "editor.minimap.enabled": false,
+
+  // ========== Explorer ==========
+
+  // Configurações de pastas no Explorer
+  "explorer.compactFolders": true,
+
+  // Desativar decorações de ícones no Explorer
+  "explorer.decorations.colors": false,
+  "explorer.decorations.badges": true,
+
+  // Esconder botões de ações rápidas nos arquivos
+  "explorer.autoReveal": false,
+
+  // Minimizar o número de ações que aparecem sobre os arquivos
+  "explorer.sortOrder": "default",
+
+  // Ações de confirmação no Explorer
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+
+  // ========== Git ==========
+
+  // Desativar decorações do Git no Explorer
+  "git.decorations.enabled": false,
+
+  // ========== Controle de Versão ==========
+
+  // Desativar decorações de diferenças no Git
+  "scm.diffDecorations": "none",
+
+  // Configurações para ocultar decorações no Gutter
+  "scm.diffDecorationsGutterPattern": {
+    "added": false,
+    "modified": false
+  },
+  "scm.diffDecorationsGutterAction": "none",
+
+  // ========== Terminal ==========
+
+  // Fonte e tamanho do terminal integrado
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "terminal.integrated.fontSize": 12,
+  "workbench.preferredDarkColorTheme": "Vitesse Dark",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.env.windows": {},
+  "console-ninja.featureSet": "Community"
+}

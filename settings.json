@@ -68,6 +68,7 @@
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontSize": 14,
   "editor.lineHeight": 1.8,
+  "editor.fontLigatures": true,
 
   // Largura de tabulação e quebras de linha
   "editor.tabSize": 2,
@@ -127,11 +128,19 @@
   "explorer.autoReveal": false,
 
   // Minimizar o número de ações que aparecem sobre os arquivos
-  "explorer.sortOrder": "default",
+  "explorer.sortOrder": "foldersNestsFiles",
 
   // Ações de confirmação no Explorer
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
+
+  "explorer.fileNesting.patterns": {
+    "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-*, bun.lockb, nest*, package-lock*",
+    "tailwind.config.*": "tailwind.config*, postcss.config*",
+    ".env.local": ".env*",
+    ".env": ".env*"
+  },
+  "explorer.fileNesting.enabled": true,
 
   // ========== Git ==========
 
@@ -160,5 +169,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "terminal.integrated.env.windows": {},
-  "console-ninja.featureSet": "Community"
+  "console-ninja.featureSet": "Community",
+  "files.autoSave": "afterDelay"
 }
